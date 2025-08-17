@@ -14,39 +14,38 @@ Then('I add products in cart', async function () {
 });
 
 Then('I add multiple products in cart', async function () {
-  productsPage = new ProductPage(pageFixture.page); // create instance of your page object
-  await productsPage.addmultipltProductsInCart();    // call the method from your POM
+  productsPage = new ProductPage(pageFixture.page); 
+  await productsPage.addmultipltProductsInCart();    
 });
 
 
 
  Then('I sort products by A-Z', async function () {
-     productsPage = new ProductPage(pageFixture.page); // create instance of your page object
-     await productsPage.clickonsorting();    // call the method from your POM
- });
-
+     productsPage = new ProductPage(pageFixture.page); 
+     await productsPage.clickonsorting();   
+});
 
 Then('I sort products by Z-A', async function () {
-  productsPage = new ProductPage(pageFixture.page); // create instance of your page object
-  await productsPage.clickonreversesorting();    // call the method from your POM
+  productsPage = new ProductPage(pageFixture.page); 
+  await productsPage.clickonreversesorting();    
 });
 
 
 Then('I sort products by Price low to high', async function () {
-  productsPage = new ProductPage(pageFixture.page); // create instance of your page object
-  await productsPage.clickonprice();    // call the method from your POM
+  productsPage = new ProductPage(pageFixture.page);
+  await productsPage.clickonprice();    
 });
 
 
 
 Then('I sort products by Price high to low', async function () {
-  productsPage = new ProductPage(pageFixture.page); // create instance of your page object
-  await productsPage.clickonpricehightolow();    // call the method from your POM
+  productsPage = new ProductPage(pageFixture.page); 
+  await productsPage.clickonpricehightolow();    
 });
 
 Then('I add products in cart and remove it from there', async function () {
-  productsPage = new ProductPage(pageFixture.page); // create instance of your page object
-  await productsPage.addandremoveProductsInCart();    // call the method from your POM
+  productsPage = new ProductPage(pageFixture.page); 
+  await productsPage.addandremoveProductsInCart();    
 });
 
 

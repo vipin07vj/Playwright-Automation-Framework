@@ -14,20 +14,20 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1660988166
+              "duration": 1302263041
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "I login with invalid username and password",
+            "name": "I login with invalid \"standard_user1\" and \"secret_sauce\"",
             "match": {
               "location": "src/step-definations/LoginSteps.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 4730944708
+              "duration": 4713913042
             }
           },
           {
@@ -35,7 +35,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 166801667
+              "duration": 139485082
             }
           }
         ],
@@ -51,7 +51,7 @@
         "description": "",
         "id": "sauce-labs-product-checkout-functionality;add-single-product-in-cart-and-successfully-checkout",
         "keyword": "Scenario",
-        "line": 7,
+        "line": 8,
         "name": "Add single product in cart and successfully checkout",
         "steps": [
           {
@@ -59,72 +59,72 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 646459458
+              "duration": 481829917
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 8,
-            "name": "I login with valid username and password",
-            "match": {
-              "location": "src/step-definations/LoginSteps.ts:7"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1619678666
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
             "line": 9,
-            "name": "I add products in cart",
+            "name": "I login with valid \"standard_user\" and \"secret_sauce\"",
             "match": {
-              "location": "src/step-definations/ProductSteps.ts:11"
+              "location": "src/step-definations/LoginSteps.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 73776749
+              "duration": 1754151374
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 10,
-            "name": "I click on checkout in your cart page",
+            "name": "I add products in cart",
             "match": {
-              "location": "src/step-definations/CheckoutSteps.ts:9"
+              "location": "src/step-definations/ProductSteps.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 41816875
+              "duration": 75895624
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 11,
-            "name": "I proceed to Checkout: Your Information",
+            "name": "I click on checkout in your cart page",
             "match": {
-              "location": "src/step-definations/CheckoutYourInfoSteps.ts:9"
+              "location": "src/step-definations/CheckoutSteps.ts:9"
             },
             "result": {
               "status": "passed",
-              "duration": 53451082
+              "duration": 32846958
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 12,
+            "name": "I proceed to Checkout: Your Information",
+            "match": {
+              "location": "src/step-definations/CheckoutYourInfoSteps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49023332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
             "name": "I Finsh my request in Checkout: Overview",
             "match": {
               "location": "src/step-definations/CheckoutOverviewSteps.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 32200749
+              "duration": 32207458
             }
           },
           {
@@ -132,7 +132,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 81251916
+              "duration": 94295250
             }
           }
         ],
@@ -148,7 +148,7 @@
         "description": "",
         "id": "sauce-labs-product-checkout-functionality;add-multiple-products-in-cart-and-successfully-checkout",
         "keyword": "Scenario",
-        "line": 14,
+        "line": 15,
         "name": "Add multiple products in cart and successfully checkout",
         "steps": [
           {
@@ -156,72 +156,72 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 590600749
+              "duration": 437349082
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 15,
-            "name": "I login with valid username and password",
-            "match": {
-              "location": "src/step-definations/LoginSteps.ts:7"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1628177208
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
             "line": 16,
-            "name": "I add multiple products in cart",
+            "name": "I login with valid \"standard_user\" and \"secret_sauce\"",
             "match": {
-              "location": "src/step-definations/ProductSteps.ts:16"
+              "location": "src/step-definations/LoginSteps.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 100099958
+              "duration": 1635099750
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 17,
-            "name": "I click on checkout in your cart page",
+            "name": "I add multiple products in cart",
             "match": {
-              "location": "src/step-definations/CheckoutSteps.ts:9"
+              "location": "src/step-definations/ProductSteps.ts:16"
             },
             "result": {
               "status": "passed",
-              "duration": 31600915
+              "duration": 100936416
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 18,
-            "name": "I proceed to Checkout: Your Information",
+            "name": "I click on checkout in your cart page",
             "match": {
-              "location": "src/step-definations/CheckoutYourInfoSteps.ts:9"
+              "location": "src/step-definations/CheckoutSteps.ts:9"
             },
             "result": {
               "status": "passed",
-              "duration": 50990125
+              "duration": 31066833
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 19,
+            "name": "I proceed to Checkout: Your Information",
+            "match": {
+              "location": "src/step-definations/CheckoutYourInfoSteps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51206250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
             "name": "I Finsh my request in Checkout: Overview",
             "match": {
               "location": "src/step-definations/CheckoutOverviewSteps.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 32033416
+              "duration": 31813749
             }
           },
           {
@@ -229,7 +229,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 94405375
+              "duration": 102947791
             }
           }
         ],
@@ -245,7 +245,7 @@
         "description": "",
         "id": "sauce-labs-product-checkout-functionality;add-product-in-cart-and-cancelling-the-checkout",
         "keyword": "Scenario",
-        "line": 21,
+        "line": 22,
         "name": "Add product in cart and cancelling the checkout",
         "steps": [
           {
@@ -253,72 +253,72 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 550054082
+              "duration": 558287041
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 22,
-            "name": "I login with valid username and password",
-            "match": {
-              "location": "src/step-definations/LoginSteps.ts:7"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1623030791
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
             "line": 23,
-            "name": "I add products in cart",
+            "name": "I login with valid \"standard_user\" and \"secret_sauce\"",
             "match": {
-              "location": "src/step-definations/ProductSteps.ts:11"
+              "location": "src/step-definations/LoginSteps.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 64948875
+              "duration": 1623299790
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 24,
-            "name": "I click on checkout in your cart page",
+            "name": "I add products in cart",
             "match": {
-              "location": "src/step-definations/CheckoutSteps.ts:9"
+              "location": "src/step-definations/ProductSteps.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 32009459
+              "duration": 65531791
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 25,
-            "name": "I proceed to Checkout: Your Information",
+            "name": "I click on checkout in your cart page",
             "match": {
-              "location": "src/step-definations/CheckoutYourInfoSteps.ts:9"
+              "location": "src/step-definations/CheckoutSteps.ts:9"
             },
             "result": {
               "status": "passed",
-              "duration": 51181000
+              "duration": 31643374
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 26,
+            "name": "I proceed to Checkout: Your Information",
+            "match": {
+              "location": "src/step-definations/CheckoutYourInfoSteps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51532374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
             "name": "I Finsh my request in Checkout: Overview",
             "match": {
               "location": "src/step-definations/CheckoutOverviewSteps.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 31504584
+              "duration": 31397750
             }
           },
           {
@@ -326,7 +326,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 96456250
+              "duration": 97410292
             }
           }
         ],
@@ -342,7 +342,7 @@
         "description": "",
         "id": "sauce-labs-product-checkout-functionality;remove-product-in-cart",
         "keyword": "Scenario",
-        "line": 28,
+        "line": 29,
         "name": "Remove product in cart",
         "steps": [
           {
@@ -350,46 +350,46 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 424564582
+              "duration": 426270415
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 29,
-            "name": "I login with valid username and password",
-            "match": {
-              "location": "src/step-definations/LoginSteps.ts:7"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1627518833
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
             "line": 30,
-            "name": "I add products in cart",
+            "name": "I login with valid \"standard_user\" and \"secret_sauce\"",
             "match": {
-              "location": "src/step-definations/ProductSteps.ts:11"
+              "location": "src/step-definations/LoginSteps.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 67869624
+              "duration": 1608471999
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 31,
+            "name": "I add products in cart",
+            "match": {
+              "location": "src/step-definations/ProductSteps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68824207
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
             "name": "I click on remove button to remove the products",
             "match": {
               "location": "src/step-definations/CheckoutSteps.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 697874
+              "duration": 29465457
             }
           },
           {
@@ -397,7 +397,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 77021499
+              "duration": 99209374
             }
           }
         ],
@@ -413,7 +413,7 @@
         "description": "",
         "id": "sauce-labs-product-checkout-functionality;sort-products-a–z-and-complete-the-checkout",
         "keyword": "Scenario",
-        "line": 33,
+        "line": 34,
         "name": "Sort products A–Z and complete the checkout",
         "steps": [
           {
@@ -421,85 +421,85 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 587940999
+              "duration": 563827750
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 34,
-            "name": "I login with valid username and password",
-            "match": {
-              "location": "src/step-definations/LoginSteps.ts:7"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1616257416
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
             "line": 35,
-            "name": "I sort products by A-Z",
+            "name": "I login with valid \"standard_user\" and \"secret_sauce\"",
             "match": {
-              "location": "src/step-definations/ProductSteps.ts:23"
+              "location": "src/step-definations/LoginSteps.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 110261125
+              "duration": 1572594124
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 36,
-            "name": "I add products in cart",
+            "name": "I sort products by A-Z",
             "match": {
-              "location": "src/step-definations/ProductSteps.ts:11"
+              "location": "src/step-definations/ProductSteps.ts:23"
             },
             "result": {
               "status": "passed",
-              "duration": 75314750
+              "duration": 139281917
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 37,
-            "name": "I click on checkout in your cart page",
+            "name": "I add products in cart",
             "match": {
-              "location": "src/step-definations/CheckoutSteps.ts:9"
+              "location": "src/step-definations/ProductSteps.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 30778834
+              "duration": 62343292
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 38,
-            "name": "I proceed to Checkout: Your Information",
+            "name": "I click on checkout in your cart page",
             "match": {
-              "location": "src/step-definations/CheckoutYourInfoSteps.ts:9"
+              "location": "src/step-definations/CheckoutSteps.ts:9"
             },
             "result": {
               "status": "passed",
-              "duration": 51341165
+              "duration": 30973583
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 39,
+            "name": "I proceed to Checkout: Your Information",
+            "match": {
+              "location": "src/step-definations/CheckoutYourInfoSteps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51033208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
             "name": "I Finsh my request in Checkout: Overview",
             "match": {
               "location": "src/step-definations/CheckoutOverviewSteps.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 36843875
+              "duration": 31810667
             }
           },
           {
@@ -507,7 +507,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 51585459
+              "duration": 47713874
             }
           }
         ],
@@ -523,7 +523,7 @@
         "description": "",
         "id": "sauce-labs-product-checkout-functionality;sort-products-z–a-and-complete-the-checkout",
         "keyword": "Scenario",
-        "line": 41,
+        "line": 42,
         "name": "Sort products Z–A and complete the checkout",
         "steps": [
           {
@@ -531,85 +531,85 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 626361582
+              "duration": 422643708
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 42,
-            "name": "I login with valid username and password",
+            "line": 43,
+            "name": "I login with valid \"standard_user\" and \"secret_sauce\"",
             "match": {
-              "location": "src/step-definations/LoginSteps.ts:7"
+              "location": "src/step-definations/LoginSteps.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 1634697208
+              "duration": 1645520624
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 43,
+            "line": 44,
             "name": "I sort products by Z-A",
             "match": {
-              "location": "src/step-definations/ProductSteps.ts:29"
+              "location": "src/step-definations/ProductSteps.ts:28"
             },
             "result": {
               "status": "passed",
-              "duration": 3099694541
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 44,
-            "name": "I add products in cart",
-            "match": {
-              "location": "src/step-definations/ProductSteps.ts:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 68817834
+              "duration": 3106196416
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 45,
-            "name": "I click on checkout in your cart page",
+            "name": "I add products in cart",
             "match": {
-              "location": "src/step-definations/CheckoutSteps.ts:9"
+              "location": "src/step-definations/ProductSteps.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 28542082
+              "duration": 65251459
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 46,
-            "name": "I proceed to Checkout: Your Information",
+            "name": "I click on checkout in your cart page",
             "match": {
-              "location": "src/step-definations/CheckoutYourInfoSteps.ts:9"
+              "location": "src/step-definations/CheckoutSteps.ts:9"
             },
             "result": {
               "status": "passed",
-              "duration": 52735416
+              "duration": 29035792
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 47,
+            "name": "I proceed to Checkout: Your Information",
+            "match": {
+              "location": "src/step-definations/CheckoutYourInfoSteps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50935250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
             "name": "I Finsh my request in Checkout: Overview",
             "match": {
               "location": "src/step-definations/CheckoutOverviewSteps.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 31598459
+              "duration": 31820500
             }
           },
           {
@@ -617,7 +617,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 54103167
+              "duration": 57188750
             }
           }
         ],
@@ -633,7 +633,7 @@
         "description": "",
         "id": "sauce-labs-product-checkout-functionality;sort-products-by-price-low-to-high-and-complete-the-checkout",
         "keyword": "Scenario",
-        "line": 49,
+        "line": 50,
         "name": "Sort products by price low to high and complete the checkout",
         "steps": [
           {
@@ -641,85 +641,85 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 562187458
+              "duration": 551643874
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 50,
-            "name": "I login with valid username and password",
-            "match": {
-              "location": "src/step-definations/LoginSteps.ts:7"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1666084999
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
             "line": 51,
-            "name": "I sort products by Price low to high",
+            "name": "I login with valid \"standard_user\" and \"secret_sauce\"",
             "match": {
-              "location": "src/step-definations/ProductSteps.ts:35"
+              "location": "src/step-definations/LoginSteps.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 87203959
+              "duration": 1632893125
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 52,
-            "name": "I add products in cart",
+            "name": "I sort products by Price low to high",
             "match": {
-              "location": "src/step-definations/ProductSteps.ts:11"
+              "location": "src/step-definations/ProductSteps.ts:34"
             },
             "result": {
               "status": "passed",
-              "duration": 63585375
+              "duration": 95646333
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 53,
-            "name": "I click on checkout in your cart page",
+            "name": "I add products in cart",
             "match": {
-              "location": "src/step-definations/CheckoutSteps.ts:9"
+              "location": "src/step-definations/ProductSteps.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 30364125
+              "duration": 62884500
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 54,
-            "name": "I proceed to Checkout: Your Information",
+            "name": "I click on checkout in your cart page",
             "match": {
-              "location": "src/step-definations/CheckoutYourInfoSteps.ts:9"
+              "location": "src/step-definations/CheckoutSteps.ts:9"
             },
             "result": {
               "status": "passed",
-              "duration": 51812041
+              "duration": 31629874
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 55,
+            "name": "I proceed to Checkout: Your Information",
+            "match": {
+              "location": "src/step-definations/CheckoutYourInfoSteps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50875749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
             "name": "I Finsh my request in Checkout: Overview",
             "match": {
               "location": "src/step-definations/CheckoutOverviewSteps.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 31991458
+              "duration": 31865000
             }
           },
           {
@@ -727,7 +727,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 65002541
+              "duration": 66521082
             }
           }
         ],
@@ -743,7 +743,7 @@
         "description": "",
         "id": "sauce-labs-product-checkout-functionality;sort-products-by-price-high-to-low-and-complete-the-checkout",
         "keyword": "Scenario",
-        "line": 57,
+        "line": 58,
         "name": "Sort products by price high to low and complete the checkout",
         "steps": [
           {
@@ -751,85 +751,85 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 424455541
+              "duration": 559686249
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 58,
-            "name": "I login with valid username and password",
+            "line": 59,
+            "name": "I login with valid \"standard_user\" and \"secret_sauce\"",
             "match": {
-              "location": "src/step-definations/LoginSteps.ts:7"
+              "location": "src/step-definations/LoginSteps.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 1595449333
+              "duration": 1674744875
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 59,
+            "line": 60,
             "name": "I sort products by Price high to low",
             "match": {
-              "location": "src/step-definations/ProductSteps.ts:42"
+              "location": "src/step-definations/ProductSteps.ts:41"
             },
             "result": {
               "status": "passed",
-              "duration": 81672834
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 60,
-            "name": "I add products in cart",
-            "match": {
-              "location": "src/step-definations/ProductSteps.ts:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 68459875
+              "duration": 87207500
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 61,
-            "name": "I click on checkout in your cart page",
+            "name": "I add products in cart",
             "match": {
-              "location": "src/step-definations/CheckoutSteps.ts:9"
+              "location": "src/step-definations/ProductSteps.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 30943999
+              "duration": 63044167
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 62,
-            "name": "I proceed to Checkout: Your Information",
+            "name": "I click on checkout in your cart page",
             "match": {
-              "location": "src/step-definations/CheckoutYourInfoSteps.ts:9"
+              "location": "src/step-definations/CheckoutSteps.ts:9"
             },
             "result": {
               "status": "passed",
-              "duration": 51082666
+              "duration": 32049707
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 63,
+            "name": "I proceed to Checkout: Your Information",
+            "match": {
+              "location": "src/step-definations/CheckoutYourInfoSteps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50576417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 64,
             "name": "I Finsh my request in Checkout: Overview",
             "match": {
               "location": "src/step-definations/CheckoutOverviewSteps.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 31786708
+              "duration": 31995957
             }
           },
           {
@@ -837,7 +837,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 48680584
+              "duration": 57464790
             }
           }
         ],
@@ -853,7 +853,7 @@
         "description": "",
         "id": "sauce-labs-product-checkout-functionality;add-multiple-products-to-cart-and-remove-in-cart",
         "keyword": "Scenario",
-        "line": 65,
+        "line": 66,
         "name": "Add multiple products to cart and remove in cart",
         "steps": [
           {
@@ -861,46 +861,46 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 577443166
+              "duration": 592670125
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 66,
-            "name": "I login with valid username and password",
-            "match": {
-              "location": "src/step-definations/LoginSteps.ts:7"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1640089250
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
             "line": 67,
-            "name": "I add multiple products in cart",
+            "name": "I login with valid \"standard_user\" and \"secret_sauce\"",
             "match": {
-              "location": "src/step-definations/ProductSteps.ts:16"
+              "location": "src/step-definations/LoginSteps.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 102147334
+              "duration": 1617378667
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 68,
-            "name": "I click on remove button to remove the products",
+            "name": "I add multiple products in cart",
             "match": {
-              "location": "src/step-definations/CheckoutSteps.ts:15"
+              "location": "src/step-definations/ProductSteps.ts:16"
             },
             "result": {
               "status": "passed",
-              "duration": 205583
+              "duration": 100235000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 69,
+            "name": "I click on remove button to remove the product from multiple products",
+            "match": {
+              "location": "src/step-definations/CheckoutSteps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28414457
             }
           },
           {
@@ -908,7 +908,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 96422959
+              "duration": 96977624
             }
           }
         ],
@@ -924,7 +924,7 @@
         "description": "",
         "id": "sauce-labs-product-checkout-functionality;remove-product-in-product-page",
         "keyword": "Scenario",
-        "line": 70,
+        "line": 71,
         "name": "Remove product in product page",
         "steps": [
           {
@@ -932,33 +932,33 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 561784041
+              "duration": 565938332
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 71,
-            "name": "I login with valid username and password",
+            "line": 72,
+            "name": "I login with valid \"standard_user\" and \"secret_sauce\"",
             "match": {
-              "location": "src/step-definations/LoginSteps.ts:7"
+              "location": "src/step-definations/LoginSteps.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 1623570457
+              "duration": 1589275374
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 72,
+            "line": 73,
             "name": "I add products in cart and remove it from there",
             "match": {
-              "location": "src/step-definations/ProductSteps.ts:47"
+              "location": "src/step-definations/ProductSteps.ts:46"
             },
             "result": {
               "status": "passed",
-              "duration": 3070211499
+              "duration": 3074868875
             }
           },
           {
@@ -966,7 +966,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 119820250
+              "duration": 120210500
             }
           }
         ],

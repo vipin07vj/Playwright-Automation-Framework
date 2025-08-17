@@ -22,6 +22,7 @@ const browsers: { [key: string]: BrowserType } = {
     'webkit': webkit
 };
 
+
 let browserInstance: Browser | null = null;
 
 async function initializeBrowserContext(selectedBrowser: string): Promise<Browser> {

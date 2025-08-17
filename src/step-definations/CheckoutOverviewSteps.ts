@@ -6,8 +6,8 @@ import logger from '../logger/logger';
 
 
 Then('I Finsh my request in Checkout: Overview', async function () {
-  checkoutOverviewPage = new CheckoutOverviewPage(pageFixture.page); // create instance of your page object
-  await checkoutOverviewPage.checkproducts();    // call the method from your POM
+  checkoutOverviewPage = new CheckoutOverviewPage(pageFixture.page); 
+  await checkoutOverviewPage.checkproducts();  
   logger.info("I completed my Order")
 });
 

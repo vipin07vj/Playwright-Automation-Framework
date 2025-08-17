@@ -15,17 +15,25 @@ export class LoginPage {
     this.loginBtn = page.locator('#login-button');
   }
 
-  async login(): Promise<void> {
-    await this.page.goto('https://www.saucedemo.com/')
-    await this.userName.fill('standard_user');
-    await this.password.fill('secret_sauce');
-    await this.loginBtn.click();
-  }
+  async login(username: string, password: string): Promise<void> {
+     await this.page.goto('https://www.saucedemo.com/')
+     await this.userName.fill(username);
+     await this.password.fill(password);
+     await this.loginBtn.click();
+   }
 
-  async InValidlogin(): Promise<void> {
+
+  // async login(): Promise<void> {
+  //   await this.page.goto('https://www.saucedemo.com/')
+  //   await this.userName.fill('standard_user');
+  //   await this.password.fill('secret_sauce');
+  //   await this.loginBtn.click();
+  // }
+
+  async InValidlogin(username: string, password: string): Promise<void> {
     await this.page.goto('https://www.saucedemo.com/')
-    await this.userName.fill('standard_userxxx');
-    await this.password.fill('secet_sauce');
+    await this.userName.fill(username);
+    await this.password.fill(password);
     await this.loginBtn.click();
     await this.page.waitForTimeout(3000)
 }
